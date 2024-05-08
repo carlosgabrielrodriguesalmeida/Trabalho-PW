@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <div>
+        <h1>Cadastro para corrida de F1.</h1>
+        <p>Complete suas informações</p>
+        <br>
+    </div>
+
+    <form >
+        <fieldset>
+            <div>
+                <label>nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label >Sobrenome</label>
+                <input type="text" name="Sobrenome" id="Sobrenome">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="Email" id="Email">
+            </div>
+
+            <div>
+                <label>Em qual parte da arquibancada você deseja ficar?</label>
+                <br>
+                <label>
+                    <input type="radio" value="posição" name="bdp" checked>Parte superior
+                    <br>
+                </label>
+                <label>
+                    <input type="radio" value="posição" name="bdp">Parte inferior
+                    <br>
+                </label>
+                <label>
+                    <input type="radio" value="posição" name="bdp">Parte direita 
+                    <br>
+                </label>
+                <label>
+                    <input type="radio" value="posição" name="bdp">Parte esquerda
+                    <br>
+                </label>
+                <label>
+                    <input type="radio" value="posição" name="bdp">Parte central
+                </label>
+            </div>
+
+            <div>
+                <label>scuderia</label>
+                <select id="scuderia">
+                    <option>scuderia ferrari</option>
+                    <option>scuderia mclaren</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
